@@ -104,7 +104,7 @@ def calculo_agente():
         print(f'{Fore.RED}[1] Hay incendio {emoji.emojize(":fire:")}.\n')
 
         #Bucle para el ingreso de datos para que solo pueda ingresar los datos mostrados por mensaje
-        while estado_bosque != '0' and estado_bosque != '1':
+        while estado_bosque != '0' and estado_bosque != '1': #bucle
             estado_bosque = input(f'{Fore.GREEN}Ingrese el estado actual del bosque: ')#Ingreso de datos 
         while estado_edificacion != '0' and estado_edificacion != '1':
             estado_edificacion = input(f'{Fore.GREEN}Ingrese el estado actual de la Edificación: ')#Ingreso de datos 
